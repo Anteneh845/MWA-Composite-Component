@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem; margin: 20px;">
+  <div class="card-body">
+    <a class="text-decoration-none text-white">
+      <h5 class="card-title">
+        {{course.title}} -
+        <span class="font-monospace"> {{course.code}} </span>
+      </h5>
+    </a>
+    <div class="text-muted"> {{course.description | charLimit:100 }}...</div>
+    <div class="text-muted"> {{course.prerequisite }}</div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<app-container>
+  <div class="container">
+    <h1> Course List</h1>
+    <div class="row">
+      <div *ngFor="let course of courseList" class="col-3">
+        <app-course-card [course]="course"></app-course-card>
+      </div>
+    </div>
+  </div>
+</app-container>
